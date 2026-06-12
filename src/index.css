@@ -8,7 +8,9 @@
 /* @custom-variant dark (&:where(.dark,.dark *)) */
 /* @variant dark (&:where(.dark, .dark *)); */
 
-
+html, body, #root {
+  @apply bg-white dark:bg-black;
+}
 *{
     font-family: "Manrope",sans-serif;
     font-weight: 500;
